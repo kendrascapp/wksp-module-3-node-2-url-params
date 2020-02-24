@@ -27,17 +27,18 @@ SASS is CSS on steroids.
 There are two file types in which you can write SASS.
 
 - `.sass` the original syntax.
-    - more concise
-    - easier to read
-    - doesn't care about missing semi-colons
+
+  - more concise
+  - easier to read
+  - doesn't care about missing semi-colons
 
 - `.scss` stands for _Sassy CSS_
-    - more expressive
-    - encourages proper syntax / nesting
-    - encourages modular code
-    - easier to document (comment)
-    - works with existing CSS codebases
-    - replace CSS?
+  - more expressive
+  - encourages proper syntax / nesting
+  - encourages modular code
+  - easier to document (comment)
+  - works with existing CSS codebases
+  - replace CSS?
 
 ---
 

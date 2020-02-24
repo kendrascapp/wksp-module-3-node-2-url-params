@@ -83,6 +83,34 @@ codeblock {
   margin: 12px 32px 6px 0;
   padding: 12px 14px; }
 
+li {
+  display: flex; }
+
+.numStreams {
+  display: flex;
+  flex-direction: column; }
+
+.number {
+  font-size: 40px; }
+
+.title {
+  font-size: 22px;
+  font-weight: bold; }
+
+.songArtist {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px; }
+
+.artistName {
+  font-style: italic; }
+
+.songDate {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: auto; }
+
 body {
   background: #fafafa;
   display: flex;

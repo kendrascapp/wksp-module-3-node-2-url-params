@@ -1,0 +1,20 @@
+<div class="main">
+    <ol>
+        <% top50array.forEach((stat) => { %>
+        <li>
+            <div class="numStreams">
+                <span class="number"># <%= stat.rank %></span>
+                <span>( <%= stat.streams %> streams)</span>
+            </div>
+            <div class="songArtist">
+                <span class="title"><%= stat.title %></span>
+                <span class="artistName"> by <%= stat.artist %></span>
+            </div>
+            <div class="songDate">
+                <span> publication date: <%= stat.publicationDate %></span>
+                <div>
+        </li>
+        <hr>
+        <% }); %>
+    </ol>
+</div>
